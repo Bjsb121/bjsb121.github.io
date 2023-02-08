@@ -2,8 +2,17 @@ html {
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
   background-repeat: no-repeat;
+  font-family: 'Mukta', sans-serif;
 }
 
 body {
   height: 2000px;
+}
+
+h1 {
+  color: white;
+}
+
+div {
+  color: white;
 }
