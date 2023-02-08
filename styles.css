@@ -4,34 +4,54 @@ html {
   background-repeat: no-repeat;
   font-family: 'Mukta', sans-serif;
   max-height: fit-content;
-  color: red;
+  font-size: 18px;
 }
 
 img {
-  height: 200px;
-  width: auto;
+  width: 20rem;
+  height: auto;
 }
 
 #main-page {
   display: flex;
   max-width: 100%;
-  justify-items: center;
+  height: 80rem;
   align-items: center;
+  justify-items: stretch;
 }
 
 .left-side {
   display: flex;
 }
 
+.name-title {
+  padding: 50px;
+  text-align: center;
+  color: rgb(167, 167, 167);
+}
+
+.description1 {
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.project1-title {
+  text-align: center;
+}
+
+.project3-title {
+  text-align: center;
+}
+
 .right-side {
   display: flex;
 }
 
-.name-title {
-  padding: 50px;
+.description2 {
+  padding: 1.5rem 2.5rem;
   text-align: center;
 }
 
-.description1 {
-  max-width: 50%;
+.pic-of-me {
+  text-align: center;
 }
