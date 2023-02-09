@@ -105,9 +105,12 @@ img {
   text-align: center;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 300px) {
+@media only screen and (max-width: 1275px) and (min-width: 400px) {
   #main-page {
     flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-wrap: nowrap;
   }
   .pic-of-me {
     margin-top: 2rem;
