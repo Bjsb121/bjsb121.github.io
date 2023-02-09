@@ -104,3 +104,15 @@ img {
 .contact-me {
   text-align: center;
 }
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  #main-page {
+    flex-direction: column;
+  }
+  .pic-of-me {
+    margin-top: 2rem;
+  }
+  .timeRef {
+    position:relative;
+  }
+}
