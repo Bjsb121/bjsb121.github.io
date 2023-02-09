@@ -25,6 +25,7 @@ html {
 #time-ref:hover {
   text-decoration: underline;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 #time-ref:visited,
